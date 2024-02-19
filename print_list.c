@@ -14,7 +14,7 @@ void print_list(const listint_t *list)
 		{
 			printf(", ");
 		}
-		
+
 		printf("%d", list->n);
 		++i;
 		list = list->next;

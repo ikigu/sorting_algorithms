@@ -1,3 +1,5 @@
+#include "sort.h"
+
 /**
  * print_array - Prints an array of integers
  *
@@ -17,7 +19,7 @@ void print_array(const int *array, size_t size)
 		{
 			printf(", ");
 		}
-		
+
 		printf("%d", array[i]);
 		i++;
 	}
