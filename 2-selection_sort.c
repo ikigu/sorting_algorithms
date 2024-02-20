@@ -14,17 +14,17 @@ void selection_sort(int *array, size_t size)
 
 	if (size < 2 || !array)
 		return;
-	
+
 	for (i = 0; i < size; i++)
 	{
 		smallest = i;
 
 		for (j = i; j < size; j++)
 		{
-			if(array[j] < array[smallest])
+			if (array[j] < array[smallest])
 				smallest = j;
 		}
-		
+
 		if (smallest != i)
 		{
 			temp = array[i];
